@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Titillium+Web:wght@200;300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    
 
 }
 
@@ -20,6 +20,7 @@
 header{
     background-color: black;
     width: 100%;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .titulo{
@@ -97,16 +98,18 @@ header{
 }
 
 .Thome{
+    font-family: 'Alkatra', cursive;
     padding: 30px;
     font-size: 30px;
 }
 
 .SobreHas{
+    font-family: 'Titillium Web', sans-serif;
     padding-left: 30px;
 }
 
 .imgHas{
     width: 600px;
-    height: 281px;
+    height: 300px;
     transform: translate(400px, -200px);
 }
