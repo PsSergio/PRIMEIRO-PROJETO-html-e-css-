@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
 
 *{
     margin: 0;
@@ -9,7 +11,7 @@
 }
 
 .topo{
-    max-width: 1080;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -19,7 +21,7 @@
 
 header{
     background-color: black;
-    width: 100%;
+    width: 100vw;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -30,7 +32,7 @@ header{
 }
 
 .titulo, .menu, .sociais{
-    width: 25%;
+    width: 25vw;
 }
 
 .sociais{
@@ -87,8 +89,14 @@ header{
     transform: scale(0.93);
 }
 
+.p1{
+    width: 100vw;
+    margin-bottom: -250px;
+    background-image: linear-gradient(180deg, #cacaca, #ffffff);
+}
+
 .SobreHas, .Thome, .imgHas{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -106,10 +114,114 @@ header{
 .SobreHas{
     font-family: 'Titillium Web', sans-serif;
     padding-left: 30px;
+    line-height: 2.0;
 }
 
 .imgHas{
+    width: 37vw;
+    height: 57vh;
+    transform: translate(250px, -350px);
+}
+
+.sociaisHas{
+    transform: translate(70px, 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.sociaisHas button{
+    width: 200px;
+    height: 140px;
+    margin: 20px;
+    background-image: linear-gradient(45deg, #ff0000, #ff3c00);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.sociaisHas button:hover{
+    transform: scale(0.93);
+}
+
+.sociaisHas button i{
+    font-size: 70px;
+}
+
+.sociaisHas button p{
+    margin-top: 2,5px;
+    font-size: 20px;
+}
+
+.Tvestibulinho, .SobreVestibulinho, .imgVestibulinho, .texto2Vestibulinho{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: rgb(0, 0, 0);
+}
+
+.Tvestibulinho{
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.SobreVestibulinho{
+    font-family: 'Titillium Web', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.texto2Vestibulinho{
+    font-family: 'Titillium Web', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: red
+}
+
+.imgVestibulinho{
     width: 600px;
-    height: 300px;
-    transform: translate(400px, -200px);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 325px;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgVestibulinho:hover{
+    transform: scale(0.96);
+}
+
+.SobreP1{
+    background-image: linear-gradient(180deg, #cacaca, #ffffff);
+}
+
+.Tsobre, .Csobre{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    color:rgb(0, 0, 0);
+}
+
+.Tsobre{
+    font-family: 'Alkatra', cursive;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.Csobre{
+    font-family: 'Titillium Web', sans-serif;
+    padding-left: 30px;
+    line-height: 2.0;
 }
